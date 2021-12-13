@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+#header{
+    position: absolute;
+    z-index: 10;
+    top: 5%;
+    width: 100%;
+    background-color: #000000;
+}
+
+.navbar-toggler{
+    background-color: black;
+}
+
+.navbar{
+    padding: 0;
+
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    background: white;
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+h1{
+    font-family: 'Alata', sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 50px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: table;
+    cursor: pointer;
+    margin-right: auto;
+    float: left;
+}
+.work h1{
+    font-family: 'Alata', sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 25px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: table;
+    cursor: pointer;
+    margin-right: auto;
+    float: left;
+	padding-top:30px;
+}
+.main h2{
+    font-family: 'Alata', sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 50px;
+    color: #edf0f1;
+    text-align: center;
+}
+.main h3{
+    font-family: 'Alata', sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 50px;
+    color: #edf0f1;
+    text-align: left;
+}
+p{
+    font-family: 'Alata', sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: table;
+    cursor: pointer;
+    margin-right: auto;
+    float: left;   
+}
+.mainimage{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    background-color: #000000;
+}
+.main{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    background-color: #000000;
+}
+.mainimage img{
+    width: 100%;
+    height: auto;
+}
+.main iframe{
+    position:relative;
+    margin: auto;
+    display: block;
+
+}
+[data-flex] {
+    display: flex;
+    width: 80%;
+    font-size: 1.2rem;
+    margin:  auto;
+    margin-top:200px;
+
+    line-height: 1.5;
+  }
+  [data-flex] > img {
+    margin-right: 2rem;
+    width: 30%;
+  }
+  [data-center] {
+    align-items: center;
+  }
+  [data-flex] div, [data-flex] p {
+    flex: 1;
+  }
+  [data-flex] div {
+    margin-right: 2rem;
+  }
+  [data-flex] div img {
+    width: 100%;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+input[type="text"]
+{
+    color: white;
+}
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #da493b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #db3a2c;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contactcontainer {
+    border-radius: 5px;
+    padding: 20%;
+    padding-top:100px;
+    color: white;
+  }
